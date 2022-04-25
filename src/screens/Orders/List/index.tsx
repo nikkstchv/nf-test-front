@@ -21,11 +21,6 @@ const OrdersList = observer(
       state.initialize();
     });
 
-    // interface Styles {
-    //   screenWrapper: string;
-    //   [key:string]: string;
-    // }
-
     return (
       <React.Fragment>
         <div className={styles.screenWrapper}>

@@ -1,4 +1,42 @@
 @import '../../../common.styl'
 
 .screen
+  padding 15px 30px
+  border-radius 5px
   background white
+
+.screenWrapper
+  height 100vh
+  width calc(100% - 85px)
+  padding 30px
+  display block
+  position relative
+  bottom 100%
+  left 85px
+  overflow scroll
+  coolScrollbar()
+
+.table
+  width 100%
+  display table
+  border-spacing 10px
+
+.head
+  display table-header-group
+
+  div
+    padding-bottom 12px
+
+.body
+  display table-row-group
+
+.row
+  display table-row
+
+  div
+    display table-cell
+
+.pagination
+  margin-top 15px
+  display flex
+  gap 15px
